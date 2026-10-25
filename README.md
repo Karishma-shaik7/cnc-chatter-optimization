@@ -82,54 +82,8 @@ $$\text{RPM}_k \approx \frac{60 \cdot f_n}{N \cdot k} \quad (k = 1, 2, 3, \dots)
 
 ---
 
-## 🚀 Quick Start Guide
 
-### Prerequisites
-- Python 3.10, 3.11, 3.12, or 3.13
-- Git
 
-### 1. Virtual Environment Setup
-
-**On Windows (PowerShell):**
-```powershell
-# Clone or navigate to the repository folder
-cd c:\Users\shaik\Downloads\cnc-chatter-optimization
-
-# Create virtual environment
-python -m venv venv
-
-# Activate virtual environment
-.\venv\Scripts\Activate.ps1
-
-# Upgrade pip and install requirements
-pip install -r requirements.txt
-```
-
-**On Linux / macOS (Bash):**
-```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
-
-### 2. Running Automated Tests
-
-Run the complete 30-test suite with detailed output:
-```powershell
-pytest -v
-```
-
-### 3. Launching the Industrial Dashboard
-
-Launch the Streamlit web application:
-```powershell
-streamlit run app.py
-```
-
-The application will automatically open in your default browser at:
-`http://localhost:8501`
-
----
 
 ## 💻 Dashboard Walkthrough
 
@@ -154,34 +108,7 @@ The application will automatically open in your default browser at:
 
 ---
 
-## 📤 Commands to Upload to GitHub
 
-Follow these exact steps to publish this project to your public GitHub profile:
-
-### Step 1: Initialize Git and Stage Files
-```powershell
-cd c:\Users\shaik\Downloads\cnc-chatter-optimization
-git init
-git add .
-git commit -m "feat: initial commit of YUKTHI 2026 CNC Chatter Suppression prototype"
-```
-
-### Step 2: Create a New Public Repository on GitHub
-1. Open [github.com/new](https://github.com/new) in your browser.
-2. Name the repository: `cnc-chatter-optimization`
-3. Set visibility to **Public**.
-4. Leave "Add a README file", ".gitignore", and license checkboxes unchecked (they are already included).
-5. Click **Create repository**.
-
-### Step 3: Link Remote and Push
-Replace `<YOUR_GITHUB_USERNAME>` with your actual GitHub username:
-```powershell
-git branch -M main
-git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/cnc-chatter-optimization.git
-git push -u origin main
-```
-
----
 
 ## 📜 License
 Developed for academic, research, and hackathon demonstration purposes under the MIT License.
